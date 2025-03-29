@@ -1,6 +1,7 @@
 return {
-  'ellisonleao/gruvbox.nvim',
+  'sainnhe/gruvbox-material',
   config = function()
-    vim.cmd('colorscheme gruvbox')
+    vim.g.gruvbox_material_float_style = 'dim'
+    vim.cmd('colorscheme gruvbox-material')
   end
 }
